@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/background_app"
+    android:background="@drawable/p1_p2">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                tools:ignore="NestedWeights">
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="2"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/first_to"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/first_to"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"/>
+
+                    <TextView
+                        android:id="@+id/matches"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_0"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="40sp"/>
+                </LinearLayout>
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="5" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/bf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:contentDescription="@string/bf"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/button_white"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/battlefield" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/sbf"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:contentDescription="@string/sbf"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/button_white"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/small_battlefield" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/fd"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:contentDescription="@string/fd"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/button_white"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/final_destination" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/yoshi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@drawable/button_white"
+                    android:contentDescription="@string/yoshi"
+                    android:scaleType="centerInside"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/yoshis_story"
+                    tools:ignore="ImageContrastCheck" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/ps2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:contentDescription="@string/ps2"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/button_white"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/pokemon_stadium_2" />
+
+                <Space
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/sv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:contentDescription="@string/sv"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/button_white"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/smashville" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/tc"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:background="@drawable/button_white"
+                    android:contentDescription="@string/tc"
+                    android:scaleType="centerInside"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/town_city"
+                    tools:ignore="ImageContrastCheck" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+                <ImageButton
+                    android:id="@+id/kalos"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:contentDescription="@string/kalos"
+                    android:scaleType="centerInside"
+                    android:background="@drawable/button_white"
+                    app:layout_constraintDimensionRatio="683:384"
+                    app:layout_constraintHorizontal_chainStyle="spread_inside"
+                    app:srcCompat="@drawable/kalos_pokemon_league" />
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+
+            <ImageButton
+                android:id="@+id/hb"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="3"
+                android:contentDescription="@string/hb"
+                android:scaleType="centerInside"
+                android:background="@drawable/button_white"
+                app:layout_constraintDimensionRatio="683:384"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:srcCompat="@drawable/hollow_bastion" />
+
+        </LinearLayout>
+
+            <Space
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/confirm_p1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-50dp"
+        android:rotation="90"
+        android:text="@string/confirm"
+        android:textSize="40sp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="DuplicateSpeakableTextCheck,VisualLintBounds" />
+
+    <Button
+        android:id="@+id/confirm_p2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="-50dp"
+        android:rotation="-90"
+        android:text="@string/confirm"
+        android:textSize="40sp"
+        android:clickable="false"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="VisualLintBounds" />
+
+    <TextView
+        android:id="@+id/score1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/score2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="20dp"
+        android:text="@string/_0"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Smash Competitors</string>
+    <string name="real_title">Super Smash Competitors</string>
+    <string name="launch">Launch</string>
+    <string name="first_to">First to</string>
+    <string name="best_of">Best of</string>
+    <string name="boft">Matchs</string>
+    <string name="get_ready">Get Ready</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="victory">VICTORY</string>
+    <string name="_0">0</string>
+    <string name="sbf">Small Battlefield</string>
+    <string name="bf">Battlefield</string>
+    <string name="fd">Final Destination</string>
+    <string name="ps2">Pokémon Stadium 2</string>
+    <string name="sv">Smashville</string>
+    <string name="hb">Hollow Bastion</string>
+    <string name="kalos">Kalos Pokémon League</string>
+    <string name="lylat">Laylat Cruise</string>
+    <string name="north">Northern Cave</string>
+    <string name="tc">Town &amp; City</string>
+    <string name="yoshi">Yoshi\'s Story</string>
+    <string name="map_chosen">Map chosen</string>
+    <string name="player">Player</string>
+    <string name="wins">Wins</string>
+    <string name="restart">Restart</string>
+</resources>
